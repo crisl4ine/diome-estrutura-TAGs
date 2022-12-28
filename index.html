@@ -1,0 +1,127 @@
+<html>
+
+<head>
+    <title>Página Principal</title>
+</head>
+
+<body>
+    <h1 id="inicio">Estrutura básica de um site HTML</h1>
+    <hr />
+    <h2>Índice</h2>
+    <ul>
+        <li style="font-size: 20px;"><a href="#surgimento">Surgimento da internet</a></li>
+        <li style="font-size: 20px;"><a href="#como-funciona">Como funciona o HTML</a></li>
+        <li style="font-size: 20px;"><a href="#tags">O que são Tags</a></li>
+    </ul>
+
+    <h2 style="color:#556B2F; font-size: 38px;" id="surgimento">Surgimento da Internet</h2>
+    <button style="background-color:rgba(0, 0, 255, 0.279); border:none; font-size: 20px;"><small><a
+                href="#inicio">Voltar</a></small></button>
+    <p style="font-family:verdana">A história da internet começa no ambiente da Guerra Fria (1945-1991). As duas super
+        potências envolvidas, Estados
+        Unidos e União Soviética, estavam divididas nos blocos socialista e capitalista e disputavam poderes e
+        hegemonias.</p>
+    <p style="font-family:verdana">Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HyperText Markup
+        Language. é o componente básico
+        da web, ele permite inserir o contéudo e estabelecer a estrutura básica e um website. Portanto ele serve para
+        dar significado e organizar as informações de uma página web. Sem isso, o navegador não saberia exibir textos
+        como elementos ou carregar imagens e outros conteúdos.</p>
+    <p style="font-family:verdana">Os hipertextos são conjuntos de elementos concetados. Esses podem ser palavras,
+        imagens, vídeo, documento, etc. Quando concetados, forman uma rede de informações que permite a comunicação de
+        dados, organizando conhecimentos e guardando informações.</p>
+    <p style="font-family:verdana">Ao visitar uma página simples na web, você pode perceber que existem diferentes
+        distribuições e tamanhos para o
+        título, paragrafos, iamgens, videos e qualquer outro elemento. Essa estrutura é estabelicida atraves do HTML. No
+        inicio da web, era comum encontrar sistes apenas contendo textos e imagens simples, com estrutura básica e sem
+        estilizações. Porém nos dias atuaism, muito dificilmente você encontrará sites que possuam apenas elementos
+        HTML. Portanto podemos considerar o HTML, o "esqueleto" da sua página.</p>
+    <p style="font-family:verdana">Imagine então que alem do esqueleto, é necessário ter o corpo. Para isso, temos a
+        linguagem em JavaScript que em
+        conjunto com HTML formam a base para todos os websites atuais. Veremos o que significada essas linguagens.</p>
+
+    <h2 style="color:#556B2F; font-size: 38px;" id="como-funciona">Como funciona o HTML</h2>
+    <p style="font-family:verdana">O HTML funciona de maneira muito simples, basicamente você irá definir o que cada
+        elemento representa dentro do
+        seu site, e o navegador irá ler e interpretar essas marcações para que ele possa exibir o conteúdo de forma
+        correta. Cada elemento HTML possui uma função específica, e você irá definir qual função ele irá ter dentro do
+        seu site para que possa atender as suas necessidades.</p>
+    <p style="font-family:verdana">Imagine como se fosse um livro, onde cada palavra representa um elemento HTML, e você
+        irá definir qual função
+        cada palavra terá dentro do seu livro, se ela será um título, um subtítulo, um parágrafo, uma imagem, um link,
+        etc. E assim o navegador irá ler e interpretar essas marcações para que ele possa exibir o conteúdo de forma
+        correta para o seu usuário.</p>
+
+    <p style="font-family:verdana">De forma técnica o código HTML é interpretado pelo browser como uma árvore de
+        elementos HTML chamada de DOM
+        (Document Object Model), onde cada elemento HTML é um nó da árvore, e cada nó possui um pai e filhos, onde o pai
+        é o elemento pai do nó e os filhos são os elementos filhos do nó, esses elementos filhos podem ser outros
+        elementos HTML ou texto, assim como na imagem abaixo:</p>
+    <img src="img/arvore-html.jpg">
+    <p style="font-family:verdana">O parsing do HTML envolve tokenização e construção da árvore, os tokens são os
+        elementos HTML definidos pelas
+        marcações de abertura e fechamento e a árvore é o conjunto desses elementos em hierarquia. O parser do browser
+        irá interpretar cada nó da árvore e se tudo estiver de acordo com as regras do HTML ele irá exibir o conteúdo de
+        forma correta na tela, normalmente este processo é muito rápido.</p>
+
+    <h2 style="color:#556B2F; font-size: 38px;" id="tags">O que são as Tags?</h2>
+    <button style="background-color:rgba(0, 0, 255, 0.279); border:none; font-size: 20px;"><small><a
+                href="#inicio">Voltar</a></small></button>
+
+    <p style="font-family:verdana">Abaixo você irá encontrar as principais tags do HTML, que são as tags mais utilizadas
+        na construção de sites, e
+        que você irá utilizar na maioria das vezes. Como no exemplo anterior com o livro, você verá muita semelhança
+        entre as tags e elementos gráficos de formatação de texto.
+    <h3 style="font-size: 22px">Tags de Cabeçalho</h3>
+    <p style="font-family:verdana">As tags de cabeçalho são utilizadas para definir títulos e subtítulos dentro do seu
+        site, comumente utilizadas
+        para organizar o conteúdo de forma hierárquica, onde o título principal é o h1, o subtítulo é o h2, e assim por
+        diante. É uma das tags mais utilizadas dentro do HTML principalmente pelo fato de seu conteúdo ser indexado
+        pelos buscadores, e por isso é muito importante que você utilize as tags de cabeçalho de forma correta.</p>
+    </p>
+    <img src="./img/cabecalho.jpg">
+    <h3 style="font-size: 22px">Tags de parágrafo</h3>
+    <p style="font-family:verdana">As tags de parágrafo são utilizadas para definir parágrafos, que são blocos de texto
+        separados por uma linha em
+        branco, normalmente utilizados em conjunto com cabeçalhos para definir o conteúdo de forma semântica.</p>
+    <img src="./img/paragrafo.jpg">
+    <h3 style="font-size: 22px">Tags de lista</h3>
+    <p style="font-family:verdana">As tags de lista são utilizadas para definir listas ordenadas e não ordenadas,
+        normalmente separadas por um
+        marcador, como um número ou um ponto, e são muito utilizadas para definir menus de navegação, listas de
+        produtos, etc.</p>
+    <img src="./img/lista.jpg">
+    <p style="font-family:verdana">Essas são algumas das tags mais utilizadas, mas existem muitas outras tags que você
+        pode e deve utilizar para
+        construir seu site, você pode encontrar todas elas na documentação do HTML. Recomendo que analise as tags e
+        entenda o contexto de cada uma delas, para que você possa utilizar da forma correta, isso terá um impacto muito
+        grande na forma como seu site será indexado pelos buscadores. A semântica do HTML é muito importante.</p>
+    <h3 style="font-size: 22px">Estrutura básica de um documento HTML</h3>
+    <p style="font-family:verdana">Abaixo você irá encontrar a estrutura básica de um documento HTML, que é a estrutura
+        mínima que você precisa para
+        criar um site, e que você irá utilizar na maioria das vezes. A estrutura básica de um documento HTML é composta
+        por 3 partes principais, que são o cabeçalho, o corpo e o documento em sí, e cada uma delas possui uma função
+        específica.</p>
+    <img src="./img/estrutura-basica.jpg">
+    <p style="font-family:verdana">Dentro desta estrutura básica normalmente você irá editar apenas o conteúdo do corpo,
+        que é o conteúdo que será
+        exibido na tela, e o cabeçalho, que é onde você irá definir o título do seu site, scripts e estilos
+        personalizados, e outras informações que serão utilizadas para a construção de seu site.</p>
+    <p style="font-family:verdana">Neste estrutura temos o seguinte:</p>
+    <img src="./img/estrutura-definicao.jpg">
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <button style="background-color:rgba(0, 0, 255, 0.279); font-size: 20px; border:none;"><small><a
+                href="#inicio">Voltar</a></small></button>
+                <br>
+                <br>
+                <br>
+                <br>
+
+    <a href="https://segredo.dev/html/#como-funciona-o-html">Referência</a>
+
+</body>
+
+</html>
